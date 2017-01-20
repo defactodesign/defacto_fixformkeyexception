@@ -1,0 +1,20 @@
+{
+  "name": "defacto/defacto_fixformkeyexception",
+  "license": "GPL-3.0",
+  "type": "magento-module",
+  "description": "Prevent ajax cart exceptions generating error reports.",
+  "keywords": ["magento"],
+  "homepage": "http://www.de-facto.com/",
+  "require": {
+    "php": ">=5.3"
+  },
+  "suggest":{
+    "magento-hackathon/magento-composer-installer": "*"
+  },
+  "authors": [
+    {
+      "name": "De-Facto Design",
+      "email": "info@de-facto.com"
+    }
+  ]
+}
