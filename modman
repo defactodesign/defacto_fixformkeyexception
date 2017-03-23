@@ -1,2 +1,4 @@
 src/app/code/community/Defacto/*     app/code/community/Defacto/
 src/app/etc/modules/*    app/etc/modules/
+src/app/locale/de_DE/*    app/locale/de_DE/
+src/app/locale/en_US/*    app/locale/en_US/

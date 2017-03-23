@@ -5,6 +5,24 @@
             <version>1.0.1</version>
         </Defacto_FixFormKeyException>
     </modules>
+    <default>
+        <checkout>
+            <cart>
+                <defacto_form_key_message>Please reload the page and try again.</defacto_form_key_message>
+            </cart>
+        </checkout>
+    </default>
+    <frontend>
+        <translate>
+            <modules>
+                <Defacto_FixFormKeyException>
+                    <files>
+                        <default>Defacto_FixFormKeyException.csv</default>
+                    </files>
+                </Defacto_FixFormKeyException>
+            </modules>
+        </translate>
+    </frontend>
     <global>
         <helpers>
             <defacto_fixformkeyexception>

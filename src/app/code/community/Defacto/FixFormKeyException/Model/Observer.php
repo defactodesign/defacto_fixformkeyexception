@@ -53,12 +53,14 @@ class Defacto_FixFormKeyException_Model_Observer
             Mage_Core_Controller_Varien_Action::FLAG_NO_DISPATCH,
             true
         );
+
+        $helper = Mage::helper('defacto_fixformkeyexception');
         // set response to json error message
         $result = Mage::helper('core')
             ->jsonEncode(
                 array(
                     'success' => 0,
-                    'error'   => Mage::helper('checkout')->__('Invalid form key'),
+                    'error'   => $helper->__($helper->getErrorMessage()),
                 )
             );
         Mage::app()
