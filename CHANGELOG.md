@@ -3,7 +3,7 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
-## Unreleased
+## 1.0.2 (2017-09-02)
 ### Added
  - Backend menu option to display customer-friendly messages per store view.
 
