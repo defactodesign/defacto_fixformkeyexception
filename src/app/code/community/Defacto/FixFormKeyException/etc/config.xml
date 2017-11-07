@@ -2,7 +2,7 @@
 <config>
     <modules>
         <Defacto_FixFormKeyException>
-            <version>1.0.1</version>
+            <version>1.0.2</version>
         </Defacto_FixFormKeyException>
     </modules>
     <default>
