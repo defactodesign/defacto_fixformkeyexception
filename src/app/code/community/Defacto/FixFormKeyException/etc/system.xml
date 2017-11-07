@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <sections>
+        <checkout>
+            <groups>
+                <cart>
+                    <fields>
+                        <defacto_form_key_message translate="label">
+                            <label>Error message when form key is invalid</label>
+                            <sort_order>50</sort_order>
+                            <frontend_type>text</frontend_type>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </defacto_form_key_message>
+                    </fields>
+                </cart>
+            </groups>
+        </checkout>
+    </sections>
+</config>
